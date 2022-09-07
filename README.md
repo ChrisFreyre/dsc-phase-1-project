@@ -2,7 +2,7 @@
 
 Author: Christopher Freyre
 
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-1-project/master/awesome.gif)
+![awesome](https://www.google.com/imgres?imgurl=https%3A%2F%2Fen.armradio.am%2Fwp-content%2Fuploads%2F2021%2F12%2FFilm-2.jpg&imgrefurl=https%3A%2F%2Fen.armradio.am%2F2022%2F05%2F31%2Fsixth-edition-of-armenian-film-festival-to-be-held-in-sydney-and-melbourne%2F&tbnid=S_GvXOuCGOoWxM&vet=12ahUKEwjw8Zzg04H6AhUyidgFHZnXCuQQMygNegUIARD4AQ..i&docid=mUo26zEoe1jk0M&w=1131&h=754&q=film&ved=2ahUKEwjw8Zzg04H6AhUyidgFHZnXCuQQMygNegUIARD4AQ)
 
 ### Business Problem
 
