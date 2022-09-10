@@ -26,6 +26,9 @@ We had a dataset with domestic gross that would solve our question number one, t
 
 I found the common data points in each dataset where I could merge them, for example I knew that I needed to merge the movie title dataset with gross dataset from the common 'primary titles' data point. I then merged them with the ratings dataset using the common 'tconst' data point, so I also cleaned the data along the way. That way I could have a solid dataset that would give me a clean answer for not only my questions also for future ones.
 
+### Merge of Dataset in one
+Images/Data_clean.png
+
 ## Results
 
 Out of my main dataset where I merged them all, I saw that with the top 5 movies, the movie studio BV had 4 of them, proving that top titles, domestic gross and movie studios were all linked. 
