@@ -1,59 +1,71 @@
-# Microsoft Movie Analysis
+# Microsoft Movie Studio Analysis
 
-Author: Christopher Freyre
+**Authors**: Chris Freyre
 
+## Overview
 
+The business problem is that Microsoft want to create a new movie studio. They need recommendations, so they can choose the right type of films. 
 
-### Business Problem
+For this project I have decided to use the following data sets: Imdb.title.basics, Imdb.title.ratings, bom.movie_gross. In these data sets, each one has a common data point so I merged them together to provide a more clean and complete data set. Through analysis of this data, I've created 3 business recommendations in relation to movie studios: The top 5 movie studios, the movie genres with the highest domestic gross and movie genres with the highest ratings. 
 
-Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. You are charged with exploring what types of films are currently doing the best at the box office. You must then translate those findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create.
+## Business Problem
 
-### The Data
+Microsoft are unaware of what type of movies to create in their new movie studio. For this we need to ask ourselves the best way to approach this project, would be with 3 different points of view, which are 1) top movies studios, 2) top genres and 3) top ratings. 
 
-In the folder `zippedData` are movie datasets from:
+With question one we will be pointed in the right direction following a succesful company proven to perform well with a total domestic gross higher than other movie studios. Question two will join our answer from question one because not only movie studios are performing well, they will have a pattern of genres in their movie top sellers. Finally question three will join in with the same pattern but from the viewers perspective voting for the type of movies that they love that would be correlated with the top movies in the market.
 
-* [Box Office Mojo](https://www.boxofficemojo.com/)
-* [IMDB](https://www.imdb.com/)
-* [Rotten Tomatoes](https://www.rottentomatoes.com/)
-* [TheMovieDB](https://www.themoviedb.org/)
-* [The Numbers](https://www.the-numbers.com/)
+I will create solutions from the data set provided, having 3 different points of view. Business perspective from the data of other movie studios performance with their own domestic gross, then match that result to the top genre movies from the other data sets and combine them with the perspective of the viewers through the top rated movies. 
 
-We use only the following data files:
+Microsoft has this data but all separated or messy data, so it makes it hard to read, that's why I not only joined 3 datasets together, before merging them I cleaned them all, for a better performance now and for the future.
 
-* imdb.title.basics
-* imdb.title.ratings
-* bom.movie_gross
+## Data
 
-## Deliverables
+We had a dataset with domestic gross that would solve our question number one, then we merged it with movie titles because it has all the data from the movie genres, names, etc that would compliment our answer about top genres. I then merged this with the last dataset of ratings. So top genres, top movies and top movie studios were all linked
 
-There are three deliverables for this project:
+## Methods
 
-* A **GitHub repository**
-* A **Jupyter Notebook**
-* A **non-technical presentation**
+I found the common data points in each dataset where I could merge them, for example I knew that I needed to merge the movie title dataset with gross dataset from the common 'primary titles' data point. I then merged them with the ratings dataset using the common 'tconst' data point, so I also cleaned the data along the way. That way I could have a solid dataset that would give me a clean answer for not only my questions also for future ones.
 
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic for instructions on creating and submitting your deliverables. Refer to the rubric associated with this assignment for specifications describing high-quality deliverables.
+### Merge of Dataset in one
+Images/Data_clean.png
 
-### Key Points
+## Results
 
-* **Your analysis should yield three concrete business recommendations.** The ultimate purpose of exploratory analysis is not just to learn about the data, but to help an organization perform better. Explicitly relate your findings to business needs by recommending actions that you think the business (Microsoft) should take.
+Out of my main dataset where I merged them all, I saw that with the top 5 movies, the movie studio BV had 4 of them, proving that top titles, domestic gross and movie studios were all linked. 
 
-* **Communicating about your work well is extremely important.** Your ability to provide value to an organization - or to land a job there - is directly reliant on your ability to communicate with them about what you have done and why it is valuable. Create a storyline your audience (the head of Microsoft's new movie studio) can follow by walking them through the steps of your process, highlighting the most important points and skipping over the rest.
+I'm confident because I not only matched results from one side, also from three different points of view; business, product and client. 
 
-* **Use plenty of visualizations.** Visualizations are invaluable for exploring your data and making your findings accessible to a non-technical audience. Spotlight visuals in your presentation, but only ones that relate directly to your recommendations. Simple visuals are usually best (e.g. bar charts and line graphs), and don't forget to format them well (e.g. labels, titles).
+Below are the charts I've created to show my results.
 
-## Getting Started
+### Top 5 movie studios in terms of domestic gross
+![graph1](./images/first_recommendation.png)
 
-Please start by reviewing this assignment, the rubric at the bottom of it, and the "Project Submission & Review" page. If you have any questions, please ask your instructor ASAP.
+### Top genres in terms of domestic gross
+![graph1](./images/2nd_reco_total_meangross.png)
 
-Next, we recommend you check out [the Phase 1 Project Templates and Examples repo](https://github.com/learn-co-curriculum/dsc-project-template) and use the MVP template for your project.
+### Mean genre rating per year
+![graph1](./images/3rdreco_mean_rating2.png)
 
-Alternatively, you can fork [the Phase 1 Project Repository](https://github.com/learn-co-curriculum/dsc-phase-1-project), clone it locally, and work in the `student.ipynb` file. Make sure to also add and commit a PDF of your presentation to your repository with a file name of `presentation.pdf`.
+## Conclusion
+In summary I would recommend to produce movies based on Sci-fi, Action and/or Adventure, not only because they possess good ratings, also they seem to be a great combination for movies that are earning a great domestic gross, as proven from the top 5 movie studios, and top movie genre domestic gross.
 
-## Project Submission and Review
+I recommend following in the footsteps of Buena Vista International (BV) Studios in how they approach movies since they have been a good example to follow, being the most profitable with less movies in comparison to the other top 5 movie studios.
 
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic to learn how to submit your project and how it will be reviewed. Your project must pass review for you to progress to the next Phase.
+My analysis is only based on domestic gross, which can be slightly limiting. So future improvements could include analysing foreign gross to expand the dataset, this would help give a broader view on the recommendations. I intend to get more familiar with the functions used to simplify my process of coding and speed things up.
 
-## Summary
+## For More Information
 
-This project will give you a valuable opportunity to develop your data science skills using real-world data. The end-of-phase projects are a critical part of the program because they give you a chance to bring together all the skills you've learned, apply them to realistic projects for a business stakeholder, practice communication skills, and get feedback to help you improve. You've got this!
+Please review my full analysis in my Jupyter notebooks or my presentation as detailed below.
+
+For any additional questions, please contact me.
+
+## Repository Structure
+
+```
+├── README.md                           <- The top-level README for reviewers of this project
+├── Microsoft_recommendations.ipynb     <- Narrative documentation of 1st recommendation in Jupyter notebook
+├── DS_Project_Presentation.pdf         <- PDF version of project presentation
+├── video_presentation.mp4              <- Video presentation
+├── data                                <- Both sourced externally and generated from code
+└── images                              <- Both sourced externally and generated from code
+```
