@@ -38,7 +38,7 @@ I'm confident because I not only matched results from one side, also from three 
 Below are the charts I've created to show my results.
 
 ### Top 5 movie studios in terms of domestic gross
-![graph1](./images/first_recomendation.png)
+![graph1](./images/first_recommendation.png)
 
 ### Top genres in terms of domestic gross
 ![graph1](./images/2nd_reco_total_meangross.png)
