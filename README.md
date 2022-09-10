@@ -27,7 +27,7 @@ We had a dataset with domestic gross that would solve our question number one, t
 I found the common data points in each dataset where I could merge them, for example I knew that I needed to merge the movie title dataset with gross dataset from the common 'primary titles' data point. I then merged them with the ratings dataset using the common 'tconst' data point, so I also cleaned the data along the way. That way I could have a solid dataset that would give me a clean answer for not only my questions also for future ones.
 
 ### Merge of Dataset in one
-Images/Data_clean.png
+![graph1](./Images/Data_clean.png)
 
 ## Results
 
@@ -38,13 +38,17 @@ I'm confident because I not only matched results from one side, also from three 
 Below are the charts I've created to show my results.
 
 ### Top 5 movie studios in terms of domestic gross
-![graph1](./images/first_recommendation.png)
+![graph1](./Images/Top5_studios_gross.png)
+
+![graph1](./Images/first_recommendation.png)
 
 ### Top genres in terms of domestic gross
-![graph1](./images/2nd_reco_total_meangross.png)
+![graph1](./Images/Mean_domesticgross_genres_graph.png)
 
-### Mean genre rating per year
-![graph1](./images/3rdreco_mean_rating2.png)
+![graph1](./Images/Mean_domesticgross_genres.png)
+ 
+### Mean genre rating
+![graph1](./Images/Genre-mean_top_studios.png)
 
 ## Conclusion
 In summary I would recommend to produce movies based on Sci-fi, Action and/or Adventure, not only because they possess good ratings, also they seem to be a great combination for movies that are earning a great domestic gross, as proven from the top 5 movie studios, and top movie genre domestic gross.
