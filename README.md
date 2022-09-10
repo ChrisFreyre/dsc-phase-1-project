@@ -47,8 +47,8 @@ Below are the charts I've created to show my results.
 
 ![graph1](./Images/Mean_domesticgross_genres.png)
  
-### Mean genre rating
-![graph1](./Images/Genre-mean_top_studios.png)
+### Mean genre by rating
+![graph1](./Images/movie_genre_mean_rating.png)
 
 ## Conclusion
 In summary I would recommend to produce movies based on Sci-fi, Action and/or Adventure, not only because they possess good ratings, also they seem to be a great combination for movies that are earning a great domestic gross, as proven from the top 5 movie studios, and top movie genre domestic gross.
