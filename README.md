@@ -72,7 +72,7 @@ For any additional questions, please contact me.
 ├── README.md                           <- The top-level README for reviewers of this project
 ├── Microsoft_recommendations.ipynb     <- Narrative documentation of recommendations in Jupyter notebook
 ├── microsoft_slides.pdf                <- PDF version of project presentation
-├── video_presentation.mp4              <- Video presentation
+├── microsoft_presentation.mp4              <- Video presentation
 ├── data                                <- Both sourced externally and generated from code
 └── images                              <- Both sourced externally and generated from code
 ```
